@@ -1,0 +1,110 @@
+#footer-section {
+    width: 100%;
+    background: #0C0C0C;
+    color: white;
+    padding: 20px 0;
+    line-height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#footer-section p {
+    font-size: 12px; 
+    line-height: 18px; 
+}
+
+#footer-section .row {
+    width: 85%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+#footer-section .col {
+    flex-basis: 25%;
+    padding: 10px;
+}
+
+#footer-section .col:nth-child(2), #footer-section .col:nth-child(3) {
+    flex-basis: 15%;
+}
+
+#footer-section .col h2 {
+    width: fit-content;
+    margin-bottom: 28.8px;
+    position: relative;
+}
+
+#footer-section .col p {
+    font-size: 13px;
+    line-height: 20px;
+    margin-top: 10px;
+}
+
+#footer-section .email-id {
+    width: fit-content;
+    border-bottom: 1px solid #ccc;
+    margin: 20px 0;
+}
+
+#footer-section ul li {
+    list-style: none;
+    margin-bottom: 12px;
+}
+
+#footer-section ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+#footer-section .social-icons .fa-brands {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px;
+    color: #000;
+    background: #fff;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+#footer-section .social-icons .fa-solid {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px;
+    color: #000;
+    background: #fff;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+#footer-section hr {
+    width: 90%;
+    border: 0;
+    border-bottom: 1px solid #ccc;
+    margin: 20px auto;
+    font-size: 12px;
+}
+
+#footer-section .copyright {
+    text-align: center;
+}
+
+@media (max-width: 700px) {
+    #footer-section .col {
+        flex-basis: 100%;
+    }
+
+    #footer-section .col:nth-child(2), #footer-section .col:nth-child(3) {
+        flex-basis: 100%;
+    }
+}
